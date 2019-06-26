@@ -148,7 +148,7 @@ def init():
     allShard = True
     frozen = False
     shardId = 0
-    res = InitMetaData(OWNER, allShard, frozen, shardId)
+    res = InitMetaData(OWNER, allShard, frozen, shardId, [])
     assert (res)
     param = state(TOTAL_AMOUNT * FACTOR, OWNER)
     registerRes = Invoke(SHARD_VERSION, XSHARD_ASSET_ADDR, 'oep4Register', param)

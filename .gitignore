@@ -104,3 +104,10 @@ venv.bak/
 .mypy_cache/
 
 .idea
+
+*.abi.json
+*.avm
+*.avm.str
+*.debug.json
+*.Func.Map
+*.warning
